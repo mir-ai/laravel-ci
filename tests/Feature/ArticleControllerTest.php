@@ -22,6 +22,7 @@ class ArticleControllerTest extends TestCase
 
         $response->assertStatus(400)
             ->assertViewIs('articles.index');
+
     }
 
     public function testGuestCreate()
